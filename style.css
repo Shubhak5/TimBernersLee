@@ -19,8 +19,8 @@ img {
     display: table;
     opacity: 0.83;
     background: linear-gradient(#94d442 0%, #e0e01d 100%);
-    height: 100%;
     width: 100%;
+    height: 100%;
     z-index: 9;
 }
 
@@ -37,7 +37,7 @@ img {
     color: darkgoldenrod;
     font-size: 20px;
     line-height: 1.2px;
-    font-family: 'Style Script', cursive;
+    font-family: 'Cinzel Decorative', cursive;
 }
 
 h1 {
@@ -49,7 +49,7 @@ h1 {
     height: 6px;
     width: 100px;
     background-color: #d8e310;
-    margin: 1px auto;
+    margin: 15px auto;
 }
 
 #bio {
@@ -65,15 +65,11 @@ p {
 
 .menu {
     list-style: none;
-    position: absolute;
-    right: 30px;
+    position: fixed;
     top: 10px;
+    right: 30px;
     cursor: pointer;
     z-index: 10;
-}
-
-a {
-    color: lightcoral;
 }
 
 .links {
@@ -88,4 +84,33 @@ a {
 
 .links:hover {
     background-color: chartreuse;
+}
+
+section {
+    text-align: center;
+}
+
+
+/*****ADV C59*****/
+
+.article:hover {
+    background-color: fuchsia;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: lightcoral;
+    text-decoration: none;
+}
+
+
+/*****End of C59*****/
+
+span {
+    padding: 20px;
+    font-size: 20px;
+    color: fuchsia;
 }
