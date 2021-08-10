@@ -28,7 +28,7 @@ img {
     display: table-cell;
     text-align: center;
     position: relative;
-    color: #FFFFFF;
+    t=color: #FFFFFF;
     vertical-align: middle;
     padding-top: 10px;
 }
@@ -67,17 +67,23 @@ p {
     list-style: none;
     position: fixed;
     top: 10px;
-    right: 30px;
+    width: 100%;
     cursor: pointer;
     z-index: 10;
 }
 
+a {
+    color: lightcoral;
+    text-decoration: none;
+    text-shadow: 2px 2px gainsboro;
+}
+
 .links {
-    float: left;
+    display: inline;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    padding-left: 30px;
+    padding-right: 20px;
     font-family: fantasy;
     font-size: 20px;
 }
@@ -90,27 +96,29 @@ section {
     text-align: center;
 }
 
-
-/*****ADV C59*****/
-
 .article:hover {
-    background-color: fuchsia;
+    background-color: blueviolet;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-a {
-    color: lightcoral;
-    text-decoration: none;
-}
-
-
-/*****End of C59*****/
-
 span {
     padding: 20px;
     font-size: 20px;
     color: fuchsia;
+}
+
+#secContacts {
+    background: firebrick;
+}
+
+.contactMail a {
+    color: blueviolet;
+    text-shadow: none;
+}
+
+.contactMail h3 {
+    display: inline;
 }
